@@ -12,20 +12,26 @@
         </h1>
     </header>
     <section>
-        <p>
-            Please Follow the following steps
-        </p>
-        <p>
-            Enter into console to play the game.<br>
-            Type game() into the console.<br>
-            Type one of rock, paper or scissors into the prompt.
-        </p>
-        <p>
+        <p id="rounds">
             You have 5 rounds.
         </p>
-        <p>
+        <p id="goodLuck">
             Goodluck
         </p>
+    </section>
+    <section>
+        <div id="roundNum">Round 1</div>
+        <button id="rock" class="button">rock</button> 
+        <button id="paper" class="button">paper</button>
+        <button id="scissors" class="button">scissors</button>
+        <div id="computerChoice"></div>
+        <div id="playerScore"></div>
+        <div id="computerScore"></div>
+        <div id="tie"></div>
+        <div id="result"></div>
+    </section>
+    <section>
+        <button id="refresh">Refresh</button>
     </section>
     <script src = "index.js"></script>
 </body>
